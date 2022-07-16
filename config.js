@@ -1,18 +1,18 @@
 let fs = require('fs')        
 let chalk = require('chalk')
 global.owner = [
-  ['6289509960601'],
-  ['6289509960601'],
-  ['6289509960601', 'Deffri Gans', true]  
+  ['6288980870067'],
+  ['6288980870067'],
+  ['6288980870067', 'Sabil Ofc', true]  
   
 ] 
-global.ownername = [['𝐃𝐞𝐟𝐟𝐫𝐢 𝐆𝐚𝐧𝐬']]
-global.namabot = [['𝑮𝒂𝒏𝒔𝑩𝑶𝑻𝒛']]
-global.ownerinsta = [['@b4c00t.dtz']]
-global.instalu = [['instagram.com/b4c00t.dtz']]
+global.ownername = [['SabilOfc']]
+global.namabot = [['Siesta•Md']]
+global.ownerinsta = [['@Sabil.Ofc']]
+global.instalu = [['instagram.com/Sabil.Ofc']]
 global.ytlu = [['https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA']]
 global.mods = [] 
-global.prems = ['6289509960601'] 
+global.prems = ['6288980870067'] 
 
 global.APIs = { 
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -46,8 +46,8 @@ if (stickerpack.spackname == '') {
   var sticker_name = '𝐃𝐞𝐟𝐟𝐫𝐢 𝐆𝐚𝐧𝐬'
   var sticker_author = '© 𝑮𝒂𝒏𝒔𝑩𝑶𝑻𝒛'
 } else {
-  var sticker_name = stickerpack.spackname
-  var sticker_author = stickerpack.sauthor
+  var sticker_name = Siesta•MD.SabilOfc
+  var sticker_author = Siesta•MD.SabilOfc
 }
 
 const file_exif = "lib/exif.json"
@@ -59,9 +59,9 @@ fs.watchFile(file_exif, () => {
 })
 
 // Sticker WM
-global.packname = '𝐃𝐞𝐟𝐟𝐫𝐢 𝐆𝐚𝐧𝐬'
-global.author = '𝑮𝒂𝒏𝒔𝑩𝑶𝑻𝒛'
-global.wm = '© Deffri Gans'
+global.packname = 'Siesta MD'
+global.author = 'SabilOfc'
+global.wm = '© Sabil Ofc'
 
 global.multiplier = 100
 
